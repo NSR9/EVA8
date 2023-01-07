@@ -59,7 +59,7 @@ Two losses are calculated for both MNIST_Image and Sum. I used "cross_entropy" a
 
 ## **Testing Logs for the best model**
 
-![Testing Logs](https://user-images.githubusercontent.com/50147394/119184617-e45a5f80-ba75-11eb-844c-6368ac093215.JPG)
+![Testing Logs](https://github.com/NSR9/EVA8/blob/main/pytorch/Screenshot%202023-01-06%20at%204.57.31%20PM.png)
 
 
 
