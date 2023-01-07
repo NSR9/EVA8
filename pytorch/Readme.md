@@ -4,17 +4,17 @@
 
 I have written our neural network to solve the problem for the assignment. We have used the MNIST dataset and modified with adding the random no.
 
-## **Data Representation**
 
-Building a custom dataset class by using MNIST dataset:
+
+## **Building a custom dataset class by using MNIST dataset:**
 This custom dataset is composed of:
 
-MNIST Image
-MNIST Image Label
-One hot encoded vector representing a random number.
-Sum of the label and the random number (2 + 3 from above).
-init() function:
-This class is named as "MNIST_Fusion".
+* MNIST Image
+* MNIST Image Label
+* One hot encoded vector representing a random number.
+* Sum of the label and the random number (2 + 3 from above).
+## **__init__() function:**
+ * This class is named as "MNIST_Fusion".
 This function takes 4 parameters in which one is self and others are train_set, test_set, train variable.
 The train variable is used to determine which dataset to load. If train is "True" the training dataset is loaded or else if "False" the test dataset is loaded.
 The core logic of the function is, it takes each image from MNIST train_set and slices to get 10 fixed pixel values into a tensor.
