@@ -32,11 +32,12 @@ This function returns the length of the dataset.
 ## **Network Architecture**
 Network:
 
-7 convolution layers
-2 fully connected layers
-2 max pooling layers
-7th conv layers will give 10 outputs so that concatenation with encoded random tensor will of same dimemsion
-Adjusted padding so that 7th conv layer be give 10 outputs
+* 7 convolution layers
+* 2 fully connected layers
+* 2 max pooling layers
+* 7th conv layers will give 10 outputs so that concatenation with encoded random tensor will of same dimemsion
+* Adjusted padding so that 7th conv layer be give 10 outputs
+
 Concatination of the two inputs:
 
 The output of the 7th conv layer contains the 10 tensor values of the MNIST image input.
