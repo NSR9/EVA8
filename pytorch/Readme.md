@@ -14,20 +14,20 @@ This custom dataset is composed of:
 * One hot encoded vector representing a random number.
 * Sum of the label and the random number (2 + 3 from above).
 ## **__init__() function:**
- * This class is named as "MNIST_Fusion".
-This function takes 4 parameters in which one is self and others are train_set, test_set, train variable.
-The train variable is used to determine which dataset to load. If train is "True" the training dataset is loaded or else if "False" the test dataset is loaded.
-The core logic of the function is, it takes each image from MNIST train_set and slices to get 10 fixed pixel values into a tensor.
-Then the obtained tensor is converted in to a one hot vector after some transformations.
-Along with this even the sum of image label and the random number has been calculated which is termed as sum label.
-Hence, the Image, image label, one hot vector of random number and sum are generated as part of init() function.
-getitem() function:
+* This class is named as "MNIST_Fusion".
+* This function takes 4 parameters in which one is self and others are train_set, test_set, train variable.
+* The train variable is used to determine which dataset to load. If train is "True" the training dataset is loaded or else if "False" the test dataset is loaded.
+* The core logic of the function is, it takes each image from MNIST train_set and slices to get 10 fixed pixel values into a tensor.
+* Then the obtained tensor is converted in to a one hot vector after some transformations.
+* Along with this even the sum of image label and the random number has been calculated which is termed as sum label.
+* Hence, the Image, image label, one hot vector of random number and sum are generated as part of init() function.
+## **__getitem__() function:**
 This function returns a particular value of the dataset based on the given index. Thus, this function makes the dataset iterable.
 
-len():
+## **__len__() function:**
 This function returns the length of the dataset.
 
-![Data Representation]()
+![Data Representation](https://github.com/NSR9/EVA8/blob/main/pytorch/dataset%20rep.png)
 
 ## **Network Architecture**
 Network:
@@ -41,11 +41,11 @@ Concatination of the two inputs:
 
 The output of the 7th conv layer contains the 10 tensor values of the MNIST image input.
 
-![Network Architecture](https://github.com/NSR9/EVA8/blob/main/pytorch/WhatsApp%20Image%202023-01-06%20at%204.48.15%20PM.jpeg)
+![Network Architecture](https://user-images.githubusercontent.com/50147394/119181866-7bbdb380-ba72-11eb-9f8d-8f0e5718380a.jpg)
 
 ## **Network Summary**
 
-![Network Summary](https://user-images.githubusercontent.com/50147394/119182925-ae1be080-ba73-11eb-9117-076d2cd8157c.jpg)
+![Network Summary](https://github.com/NSR9/EVA8/blob/main/pytorch/Screenshot%202023-01-06%20at%202.49.30%20PM.png)
 
 ## **Loss Calculation for the best model**
 Two losses are calculated for both MNIST_Image and Sum. I used "cross_entropy" as it is the best choice for a calssification problem.
@@ -53,7 +53,7 @@ Two losses are calculated for both MNIST_Image and Sum. I used "cross_entropy" a
 
 ## **Training Logs for the best model**
 
-![Training Logs](https://user-images.githubusercontent.com/50147394/119184501-bc6afc00-ba75-11eb-9716-91e350e4d5a4.JPG)
+![Training Logs](https://github.com/NSR9/EVA8/blob/main/pytorch/Screenshot%202023-01-06%20at%204.32.23%20PM.png)
 
 
 ## **Testing Logs for the best model**
