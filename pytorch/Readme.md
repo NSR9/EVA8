@@ -41,7 +41,7 @@ Concatination of the two inputs:
 
 The output of the 7th conv layer contains the 10 tensor values of the MNIST image input.
 
-![Network Architecture](https://user-images.githubusercontent.com/50147394/119181866-7bbdb380-ba72-11eb-9f8d-8f0e5718380a.jpg)
+![Network Architecture](https://github.com/NSR9/EVA8/blob/main/pytorch/WhatsApp%20Image%202023-01-06%20at%204.48.15%20PM.jpeg)
 
 ## **Network Summary**
 
