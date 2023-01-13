@@ -14,7 +14,7 @@ Your new target is:
 |[Notebook_1(Github_Link)](https://github.com/NSR9/EVA8/blob/main/S4/NoteBook_1.ipynb)![image](https://github.com/NSR9/EVA8/blob/main/S4/Notebook1.png)|[Notebook_2(Github_Link)](https://github.com/NSR9/EVA8/blob/main/S4/NoteBook_2.ipynb)![image](https://github.com/NSR9/EVA8/blob/main/S4/Notebook2.png)|
 |--|--|
 
-[Notebook_4(Github_Link)](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_5/Notebook_4(Final)_StepLR_7.5KParam.ipynb)![image](https://github.com/NSR9/EVA8/blob/main/S4/Notebook3.png)|
+[Notebook_4(Github_Link)](https://github.com/NSR9/EVA8/blob/main/S4/Notebook_3.ipynb)![image](https://github.com/NSR9/EVA8/blob/main/S4/Notebook3.png)|
 |--|--|
 
 ### **Feature Implementation in Step models:-**
@@ -38,7 +38,7 @@ Your new target is:
 <img src="https://user-images.githubusercontent.com/51078583/120814031-17b7e680-c56c-11eb-8a87-7bd01dd2c849.png" width=400 height=400>
 
 #### Final Notebook
-[Notebook_4(Github_Link)](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_5/Notebook_4(Final)_StepLR_7.5KParam.ipynb)
+[Notebook_3(Github_Link)](https://github.com/NSR9/EVA8/blob/main/S4/Notebook_3.ipynb)
 |Operation|In_Dim|Out_Dim|In_channels|Out_channels|Pad|Stride|Jin|Jout|Rf_in|Rf_out|
 |--|--|--|--|--|--|--|--|--|--|--|
 |Convolution|28x28|28x28|1|8|1|0|1|1|1x1|3x3|
