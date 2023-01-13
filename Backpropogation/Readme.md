@@ -91,11 +91,11 @@ ie: Input layer, hidden layer and output layer.
 
 #### Screenshot of the Excel file uploaded:-
 
-![Excel Work](https://user-images.githubusercontent.com/50147394/120021228-11b18b00-bfeb-11eb-998e-d05564e51074.png)
+![Excel Work](https://github.com/NSR9/EVA8/blob/main/Backpropogation/excelss.png)
 
 
 #### Total Loss Graph for various learning rates(η):-
 
-![Total Loss Graph](https://user-images.githubusercontent.com/50147394/120014884-e0cd5800-bfe2-11eb-93e8-95a99d86c4eb.png)
+![Total Loss Graph](https://github.com/NSR9/EVA8/blob/main/Backpropogation/totalLoss.png)
 
 
