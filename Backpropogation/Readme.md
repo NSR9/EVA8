@@ -28,7 +28,6 @@ ie: Input layer, hidden layer and output layer.
 * E1 and E2 are the losses for the outputs.
 * E_Total is the total loss.
 
-
  #### Forward Pass of the network:-
     # Weighted input obtained by multiplying the random weights
 	h1 = w1*i1+w2*i2		
@@ -100,6 +99,3 @@ ie: Input layer, hidden layer and output layer.
 ![Total Loss Graph](https://user-images.githubusercontent.com/50147394/120014884-e0cd5800-bfe2-11eb-93e8-95a99d86c4eb.png)
 
 
-
-## **Contributors:-**
-Chaitanya Nandam
