@@ -11,10 +11,10 @@ Your new target is:
 ## **Step Models:-**
 ### **Target, Result and Analysis of Step models:-**
 
-|[Notebook_1(Github_Link)](https://github.com/NSR9/EVA8/blob/main/S4/NoteBook_1.ipynb)![image](https://user-images.githubusercontent.com/51078583/120813331-69ac3c80-c56b-11eb-8295-81a26d3ffbdd.png)|[Notebook_2(Github_Link)](https://github.com/NSR9/EVA8/blob/main/S4/NoteBook_2.ipynb)![image](https://user-images.githubusercontent.com/51078583/120812326-8136f580-c56a-11eb-89b1-5e62f6c932cd.png)|
+|[Notebook_1(Github_Link)](https://github.com/NSR9/EVA8/blob/main/S4/NoteBook_1.ipynb)![image](https://github.com/NSR9/EVA8/blob/main/S4/Notebook1.png)|[Notebook_2(Github_Link)](https://github.com/NSR9/EVA8/blob/main/S4/NoteBook_2.ipynb)![image](https://github.com/NSR9/EVA8/blob/main/S4/Notebook2.png)|
 |--|--|
 
-[Notebook_4(Github_Link)](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_5/Notebook_4(Final)_StepLR_7.5KParam.ipynb)![image](https://user-images.githubusercontent.com/51078583/120815601-9bbe9e00-c56d-11eb-9494-9247046026c6.png)|
+[Notebook_4(Github_Link)](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_5/Notebook_4(Final)_StepLR_7.5KParam.ipynb)![image](https://github.com/NSR9/EVA8/blob/main/S4/Notebook3.png)|
 |--|--|
 
 ### **Feature Implementation in Step models:-**
