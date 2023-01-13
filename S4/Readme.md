@@ -77,7 +77,7 @@ Your new target is:
 * 2D Convolution number of kernels 10, followed with Batch Normalization and 2D Dropout of 0.05
 
 ## Model Summary:-
-![image](https://user-images.githubusercontent.com/51078583/120816521-72ead880-c56e-11eb-9c11-d0b1682fff2d.png)
+![image](https://github.com/NSR9/EVA8/blob/main/S4/modelsummary.png)
 
 ### Goals Achived:-
 In the Notebook 3 we achieved the goal of 99.4% accuracy. But the model was not stable with that accuracy. Notebook_4 achieved all the required goals. 
@@ -167,11 +167,11 @@ Test set: Average loss: 0.0208, Accuracy: 9935/10000 (99.35%)
 ```
 
 ### Training-Validation Curve:-
-![image](https://user-images.githubusercontent.com/51078583/120818119-f22cdc00-c56f-11eb-9f05-094773989f82.png)
+![image](https://github.com/NSR9/EVA8/blob/main/S4/train%26testgraphs.png)
 
 ### Incorrect image:-
 Some of the incorrect predicted images.
 
-![image](https://user-images.githubusercontent.com/51078583/120818292-18eb1280-c570-11eb-9cf0-1d49092c7b74.png)
+![image](https://github.com/NSR9/EVA8/blob/main/S4/incorrectpreds.png)
 
 
