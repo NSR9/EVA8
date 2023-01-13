@@ -56,7 +56,7 @@ Your new target is:
 
 ### **Network Diagram:-**
 
-![Network Diagram](https://user-images.githubusercontent.com/50147394/120842177-a9275880-c56c-11eb-82bd-3bea15401348.png)
+![Network Diagram](https://github.com/NSR9/EVA8/blob/main/S4/ModelArch_s4.png)
 
 
 ### **Network Block:-**
