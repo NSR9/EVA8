@@ -156,34 +156,5 @@
 * 1 x 1 Conv layers not used to reduce the number of channels 
 
 
-### **Experiment Model 2 Summary:-**
-#### [Github_link](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_4/Part%202/Experiment_assignment_NB_2.ipynb)
-**Enhancements**
 
-        * Activation Function as ReLU is used after conv layers
-        * MaxPool Layer of 2 x 2 is used twice in the network.
-        * Conv 1 x 1 is used in the transition layer for reducing the number of channels
-        * Added batch normalization after every conv layer
-        * Added dropout of 0.1 after each conv layer
-        * Added Global average pooling to get output classes.
-        * Use learning rate of 0.01 and momentum 0.9
 
-* **Paramerters Used** - **19,750**
-* **Best Accuracy** - **99.44% at the 16th Epoch**
-
-![image](https://user-images.githubusercontent.com/51078583/119997847-c9479c80-bfed-11eb-9028-a3edd9892116.png)
-
-**Drawbacks**
-* Number of Parameters can be reduced more.
-* The Achieved accuracy above 99.40 is not constant but fluctuating
-
-## **Refernce Link:-**
-
-[Kaggle]( https://www.kaggle.com/enwei26/mnist-digits-pytorch-cnn-99)
-
-## **Contributors:-**
-
-1. Avinash Ravi
-2. Nandam Sriranga Chaitanya
-3. Saroj Raj Das
-4. Ujjwal Gupta
