@@ -133,7 +133,7 @@
 
 ### **Validation Loss Curve:-**
 
-![image](https://user-images.githubusercontent.com/51078583/120013747-c5704600-bffe-11eb-840e-ad2ae3d49969.png)
+![image](https://github.com/NSR9/EVA8/blob/main/S4/training_s3_curve.png)
 
 
 
