@@ -32,7 +32,7 @@
 * Global Average pooling with a size 3 and no Padding to return a 10 x 1 x 1 as the value to go to log_softmax 
 
 ## Model Summary:-**
-#### [Github_link](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_4/Part%202/Final_Submission_Assignment_4_NB_3.ipynb)
+
 ### Enhancements to the Model:
        * Random Rotation of 5 applied as Data Augumentation Methodlogy
        * Activation Function as ReLU is used after conv layers
