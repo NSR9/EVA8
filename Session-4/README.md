@@ -67,7 +67,7 @@ In the Notebook 3 we achieved the goal of 99.4% accuracy. But the model was not 
 * The Target was achieved with **less than 8,000 Parameters**, exactly **7,760** at 8th epoch itself.
 * Achieved Accuracy of **99.40% in the 12th Epoch** and the model was consistant until 15 Epochs with less than 10k network parameters. 
 * Highest achieved accuracy was of **99.43 at the 14th Epoch**. 
-* Both the models were **not overfitting** and the Gap beween the Training and testing accuracies was very less.
+* Both the models were **not overfitting**.
 
 ### Logs of Final Model with less than 10k parameters:-
 ```
