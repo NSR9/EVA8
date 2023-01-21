@@ -195,7 +195,7 @@ Test set: Average loss: 0.0205, Accuracy: 9940/10000 (99.40%)
 ```
 
 
-### Training-Validation Curves:-
+### Training-Validation Curves of model with less than 10k parameters:-
 ![image](https://github.com/NSR9/EVA8/blob/main/Session-4/s4-t%26tgrpahs.png)
 
 
