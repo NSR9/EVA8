@@ -12,7 +12,8 @@ Your new target is:
 ### **Target, Result and Analysis of Step models:-**
 
 [Notebook_1(Github_Link)](https://github.com/NSR9/EVA8/blob/main/Session-4/S4_step_1_code_setup.ipynb)
-[image](https://github.com/NSR9/EVA8/blob/main/Session-4/s4-nbk-1.png)
+
+![image](https://github.com/NSR9/EVA8/blob/main/Session-4/s4-nbk-1.png)
 
 [Notebook_2(Github_Link)](https://github.com/NSR9/EVA8/blob/main/Session-4/S4_step_2_getting_skeleton_right.ipynb):
 [image](https://github.com/NSR9/EVA8/blob/main/Session-4/s4-nbk-2.png)
