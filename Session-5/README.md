@@ -100,6 +100,8 @@ Dropout = 0.03
 
 Epoches = 20
 
+Apart from the three combinations asked in the assignment I have also tried other combinations, please take a look below.
+
 |Normalization|L1 Regularization|	L2 Regularization | Params Count | Best Train Accuracy	|Best Test Accuracy| Link to Logs|
 |--|--|--|--|--|--|--|
 |Layer Normalization| - | - |43208 |98.91 |99.62|[Layer Norm Logs](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_6/logs/layer_norm/layer_norm)| 
@@ -114,7 +116,7 @@ Epoches = 20
 |--|--|
 |![image](https://user-images.githubusercontent.com/51078583/121725761-4bb08000-cb07-11eb-98de-296e91f6a74b.png)|![image](https://user-images.githubusercontent.com/51078583/121725803-59fe9c00-cb07-11eb-818f-ca5cb510792d.png)|
 
-|Graph 3: Training Accuracy for all 3 models together(Late Assignment Part)|Graph 4: Test/Validation Accuracy for all 3 models together|
+|Graph 3: Training Accuracy for all 3 models together|Graph 4: Test/Validation Accuracy for all 3 models together|
 |--|--|
 |![image](https://user-images.githubusercontent.com/51078583/121725858-6b47a880-cb07-11eb-8e3a-241b8395cbfc.png)|![image](https://user-images.githubusercontent.com/51078583/121725872-726eb680-cb07-11eb-8d88-ac7bf339ff76.png)|
 
