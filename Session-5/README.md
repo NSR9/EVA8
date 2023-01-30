@@ -112,7 +112,7 @@ Apart from the three combinations asked in the assignment I have also tried othe
 |Batch Normalization| Yes | Yes |7704 |97.87 | 99.4|[Batch Norm_L1_L2 Logs](https://github.com/NSR9/EVA8/blob/main/Session-5/logs/batch_norm_l1_l2/batch_norm_l1_l2)|
  
 ## Graphs and Plots (All 6 models mentioned above is compared):-
-|Graph 1: Training Loss for all 3 models together(Late Assignment Part)|Graph 2: Test/Validation Loss for all 3 models together|
+|Graph 1: Training Loss for all 3 models together|Graph 2: Test/Validation Loss for all 3 models together|
 |--|--|
 |![image](https://user-images.githubusercontent.com/51078583/121725761-4bb08000-cb07-11eb-98de-296e91f6a74b.png)|![image](https://user-images.githubusercontent.com/51078583/121725803-59fe9c00-cb07-11eb-818f-ca5cb510792d.png)|
 
