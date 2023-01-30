@@ -104,12 +104,12 @@ Apart from the three combinations asked in the assignment I have also tried othe
 
 |Normalization|L1 Regularization|	L2 Regularization | Params Count | Best Train Accuracy	|Best Test Accuracy| Link to Logs|
 |--|--|--|--|--|--|--|
-|Layer Normalization| - | - |43208 |98.91 |99.62|[Layer Norm Logs](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_6/logs/layer_norm/layer_norm)| 
-|Group Normalization| - | - | 7704| 98.72|99.51 |[Group Norm Logs](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_6/logs/group_norm/group_norm)|
-|Batch Normalization| Yes | - |7704 |97.84 |99.35 |[Batch Norm_L1 Logs](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_6/logs/batch_norm_l1/batch_norm_l1)|
-|Layer Normalization| Yes | - |43208 |97.33 |99.06 | [Layer Norm_L1 Logs](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_6/logs/layer_norm_l1/layer_norm_l1)|
-|Group Normalization| Yes | - |7704| 98.26|99.34 |[Group Norm_L1 Logs](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_6/logs/group_norm_l1/group_norm_l1) |
-|Batch Normalization| Yes | Yes |7704 |97.87 | 99.4|[Batch Norm_L1_L2 Logs](https://github.com/NSR9/Extensive-Vision-AI/blob/main/Assignment_6/logs/batch_norm_l1_l2/batch_norm_l1_l2)|
+|Layer Normalization| - | - |43208 |98.91 |99.62|[Layer Norm Logs](https://github.com/NSR9/EVA8/blob/main/Session-5/logs/layer_norm/layer_norm)| 
+|Group Normalization| - | - | 7704| 98.72|99.51 |[Group Norm Logs](https://github.com/NSR9/EVA8/blob/main/Session-5/logs/group_norm/group_norm)|
+|Batch Normalization| Yes | - |7704 |97.84 |99.35 |[Batch Norm_L1 Logs](https://github.com/NSR9/EVA8/blob/main/Session-5/logs/batch_norm_l1/batch_norm_l1)|
+|Layer Normalization| Yes | - |43208 |97.33 |99.06 | [Layer Norm_L1 Logs](https://github.com/NSR9/EVA8/blob/main/Session-5/logs/layer_norm_l1/layer_norm_l1)|
+|Group Normalization| Yes | - |7704| 98.26|99.34 |[Group Norm_L1 Logs](https://github.com/NSR9/EVA8/blob/main/Session-5/logs/group_norm_l1/group_norm_l1) |
+|Batch Normalization| Yes | Yes |7704 |97.87 | 99.4|[Batch Norm_L1_L2 Logs](https://github.com/NSR9/EVA8/blob/main/Session-5/logs/batch_norm_l1_l2/batch_norm_l1_l2)|
  
 ## Graphs and Plots (All 6 models mentioned above is compared):-
 |Graph 1: Training Loss for all 3 models together(Late Assignment Part)|Graph 2: Test/Validation Loss for all 3 models together|
