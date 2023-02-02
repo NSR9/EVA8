@@ -682,7 +682,7 @@ Test set: Average loss: 0.0030, Accuracy: 43467/50000 (86.93%)
 
 ```
 
-## Training and validation accuracy curves
+## Training and validation accuracy/loss curves
 ![plots](https://github.com/NSR9/EVA8/blob/main/Session-6/s6-img.png))
 
 ## Class-wise performance:
