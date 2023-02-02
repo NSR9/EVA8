@@ -22,12 +22,11 @@ total RF must be more than 44
 ## Model 
 Below is the model code that is modified as per assignment.
 '''
-import torch.nn as nn
-import torch.functional as F
 
 
-class Net(nn.Module):
-    def __init__(self):
+
+     class Net(nn.Module):
+       def __init__(self):
         super(Net, self).__init__()
         self.conv1 = nn.Sequential(
             nn.Conv2d(in_channels=3, out_channels=32, kernel_size=(3, 3), padding=1, bias=False),  # 32 32
@@ -134,10 +133,10 @@ class Net(nn.Module):
 '''
 
 ## Model Summary
-'''
-----------------------------------------------------------------
+
+    ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
-================================================================
+    ================================================================
             Conv2d-1           [-1, 32, 32, 32]             864
               ReLU-2           [-1, 32, 32, 32]               0
        BatchNorm2d-3           [-1, 32, 32, 32]              64
@@ -189,17 +188,17 @@ class Net(nn.Module):
            Conv2d-49             [-1, 64, 3, 3]          18,432
         AvgPool2d-50             [-1, 64, 1, 1]               0
            Conv2d-51             [-1, 10, 1, 1]             640
-================================================================
-Total params: 99,968
-Trainable params: 99,968
-Non-trainable params: 0
-----------------------------------------------------------------
-Input size (MB): 0.01
-Forward/backward pass size (MB): 8.11
-Params size (MB): 0.38
-Estimated Total Size (MB): 8.50
-----------------------------------------------------------------
-'''
+    ================================================================
+    Total params: 99,968
+    Trainable params: 99,968
+    Non-trainable params: 0
+    ----------------------------------------------------------------
+    Input size (MB): 0.01
+    Forward/backward pass size (MB): 8.11
+    Params size (MB): 0.38
+    Estimated Total Size (MB): 8.50
+    ----------------------------------------------------------------
+
 
 
 
