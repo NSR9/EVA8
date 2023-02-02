@@ -14,15 +14,13 @@ total RF must be more than 44
 7. use albumentation library and apply:
    horizontal flip
    shiftScaleRotate
-   coarseDropout (max_holes = 1, max_height=16px, max_width=1, min_holes = 1, min_height=16px, min_width=16px, fill_value=(mean of your dataset), mask_fill_value = None)
+   coarseDropout (max_holes = 1, max_height=16px, max_width=1, min_holes = 1, min_height=16px, min_width=16px, fill_value=(mean of your dataset),       mask_fill_value = None)
 8. achieve 85% accuracy, as many epochs as you want. Total Params to be less than 200k.
 9. upload to Github
 
 
 ## Model 
 Below is the model code that is modified as per assignment.
-'''
-
 
 
      class Net(nn.Module):
@@ -130,7 +128,7 @@ Below is the model code that is modified as per assignment.
         x = self.conv5(x)
         x = x.view(-1, 10)
         return F.log_softmax(x, dim=-1)
-'''
+
 
 ## Model Summary
 Below is the model summary of the above custom model.
@@ -201,7 +199,7 @@ Below is the model summary of the above custom model.
     ----------------------------------------------------------------
 
 ## Albumentations Code
-'''
+
       
      class Transforms:
        def __init__(self, transforms: A.Compose):
@@ -228,7 +226,7 @@ Below is the model summary of the above custom model.
         train_transform = Transforms(train_transform)
         test_transform = Transforms(test_transform)
     
-'''
+
 
 ## Training Logs
 ```
@@ -685,7 +683,7 @@ Test set: Average loss: 0.0030, Accuracy: 43467/50000 (86.93%)
 ```
 
 ## Training and validation curves
-
+<img src="https://user-images.githubusercontent.com/51078583/120814031-17b7e680-c56c-11eb-8a87-7bd01dd2c849.png" width=400 height=400>
 
 ## Class-wise performance:
 ```
