@@ -195,7 +195,7 @@ Both Cyclic Learning rate and One Cycle Policy was introduced by LESLIE SMITH
 
 LR Finder curve:
 
-![image](https://github.com/NSR9/EVA8/blob/main/Session-8/LRvsAcc.png)
+![image](https://github.com/NSR9/EVA8/blob/main/Session-8/Screenshot%202023-02-17%20at%2011.46.10%20AM.png)
 
 The flatest part of the curve represents the max LR for One cycle LR. 
 
